@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  get "decks/index"
+  get "decks", to: "decks#index"
 end
