@@ -1,4 +1,4 @@
 class Flashcard < ApplicationRecord
-  belongs_to :folder
-  
+  belongs_to :deck
+
 end
